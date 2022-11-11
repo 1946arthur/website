@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>こがねいろの望へようこそ</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <!--無限ループ-->
+    <link rel="stylesheet" href="./css/slick.css">
+    <!--スライドショー-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script> 
+    <script>
+        $(document).ready(function () {
+            $(".topimg").bxSlider({
+                auto: true,
+                mode: "fade",
+                speed: 100,
+                pager: false,
+                controls: false,
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <!-- ヘッダー -->
+    <header>
+        <img src="./img/logo.png" alt="ロゴ｜こがねいろの望">
+        <ul>
+            <li><a href="#news">お知らせ</a></il>
+            <li><a href="#company">会社概要</a></li>
+            <li><a href="#service">サービス</a></li>
+            <li>採用情報</li>
+            <li><a href="#contact">お問い合わせ</a></li>
+        </ul>
+    </header>
+
+    <!-- メイン -->
+    <main>
+        <!--メインビジュアル-->
+        <div class="top">
+            <div class="topimg">
+                <div><img src="./img/top1.jpg" alt="町花ひまわり"></div>
+                <div><img src="./img/top2.jpg" alt="麦畑"></div>
+                <div><img src="./img/top3.jpg" alt="重信川"></div>
+            </div>
+            <div class="catchcopy">
+                <p class="maincopy">黄金色に輝く麦畑と重信川の恵</p>
+                <p class="subcopy">愛媛県の松前町からとっておきをあなたにお届け！</p>
+            </div>
+        </div>
+        <!--お知らせ-->
+        <div id="news">
+            <div class="title">
+                <h1>NEWS</h1>
+                <h2>お知らせ</h2>
+            </div>
+            <div class="box">
+                <div class="news_box">
+                    <img src="./img/news4.png">
+                    <p class="news_title">
+                        通販夏季休業のお知らせ
+                    </p>
+                    <p class="news_text">
+                        誠に勝手ながら、2022年8月14日（日）～2022年8月16日（火）は夏季休業につき、通販出荷業務およびお問合わせ業務をお休みさせていただきます。<br>※店舗は休まず営業しております。
+                    </p>
+                </div>
+                <div class="news_box">
+                    <img src="./img/news3.png">
+                    <p class="news_title">
+                        夏のお買い得キャンペーン開催
+                    </p>
+                    <p class="news_text">
+                        2022年7月30日（土）～2022年8月7日（日）の期間、全品10%OFFセールを通販・店舗共に開催いたします。お得にお求めいただける機会です。皆様のご利用を心よりお待ちしております。
+                    </p>
+                </div>
+                <div class="news_box">
+                    <img src="./img/news2.jpg">
+                    <p class="news_title">
+                        はだか麦の秘密
+                    </p>
+                    <p class="news_text">
+                        スタッフのひとことを更新しました。松前町の特産品のひとつであるはだか麦についてご紹介。食物繊維が豊富なはだか麦を知って是非食べてみてください。
+                    </p>
+                </div>
+                <div class="news_box">
+                    <img src="./img/news1.jpg">
+                    <p class="news_title">
+                        はだかむぎゅのお取扱開始
+                    </p>
+                    <p class="news_text">
+                        松前町特産のはだか麦をつかったピーナッツ焼きです。産官学プロジェクトで生まれた、食物繊維たっぷりの高機能おやつです。昔懐かしほっこりお味で、幅広い方におススメです。
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!--会社概要-->
+        <div id="company">
+            <div class="title">
+                <h1>COMPANY</h1>
+                <h2>会社概要</h2>
+            </div>
+            <div class="box">
+                <img src="./img/company.jpg">
+                <div class="company_box">
+                    <h3>こがねいろの望について</h3>
+                    <p>
+                        　こがねいろの望は、地域商工業者が巨大ＳＣと共存共栄し、地元松前町（まさきちょう）の発展を願って2008年に設立されました。<br>　エミフルMASAKIに開設した店舗は、地域の商工業者並びに農家・漁礁者に商品販売の場を提供すると共に、町内外のお客様への商品販売や観光案内などを通して松前の魅力を発信しております。2011年にはオンラインショッピングも展開し、より多くの方に松前を楽しんでいただけるようになりました。<br>　また、当社オリジナル商品の開発にも意欲的に取り組み、これまでに町特産の町特産のはだか麦を使ったホットケーキミックスや小魚珍味発祥の地と知られる松前らしいおつまみなどを商品化して参りました。<br>　これからも皆様と松前を繋ぐ身近な存在となれますよう努めてまいります。
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!--サービス-->
+        <div id="service">
+            <div class="title">
+                <h1>SERVICE</h1>
+                <h2>サービス</h2>
+            </div>
+            <div class="slider">
+                <div class="service_box">
+                    <img src="./img/service1.jpg" class="service_img" alt="今月のおススメ商品">
+                </div>
+                <div class="service_box">
+                    <img src="./img/service2.jpg" class="service_img" alt="オンラインショッピング">
+                </div>
+                <div class="service_box">
+                    <img src="./img/service3.jpg" class="service_img" alt="店舗情報">
+                </div>
+                <div class="service_box">
+                    <img src="./img/service4.jpg" class="service_img" alt="スタッフのひとこと">
+                </div>
+                <div class="service_box">
+                    <img src="./img/service5.jpg" class="service_img" alt="観光案内">
+                </div>
+                <div class="service_box">
+                    <img src="./img/service6.jpg" class="service_img" alt="販売者生産者の方へ">
+                </div>
+            </div>
+        </div>
+        <!--お問い合わせ-->
+        <div id="contact">
+            <div class="title">
+                <h1>CONTACT</h1>
+                <h2>お問い合わせ</h2>
+            </div>
+            <table>
+                <tr>
+                    <th><p>氏　名</p></th>
+                    <td><input type="text" name="name" class="normal"></td>
+                </tr>
+                <tr>
+                    <th><p>メール</p></th>
+                    <td><input type="text" name="mail" class="normal"></td>
+                </tr>
+                <tr>
+                    <th><p>電話番号</p></th>
+                    <td><input type="text" name="tel" class="normal"></td>
+                </tr>
+                <tr>
+                    <th><p>内　容</p></th>
+                    <td><textarea name="message"></textarea></td>
+                </tr>
+            </table>
+            <input type="submit" value="送　信" name="btm" class="send">
+        </div>
+    </main>
+
+    <!-- フッター -->
+    <footer>
+        <p>©2022 Koganeiro-no-nozomi</p>
+    </footer>
+
+    <!--スクロール-->
+    <script src="./js/slick.min.js"></script>
+    <script>
+        $(function () {
+            $('.slider').slick({
+                infinite: true,
+                autoplay: true,
+                autoplaySpeed: 1000,
+                speed: 3000,    
+                cssEase: 'ease',
+                arrows: false,
+                swipe: true,
+                slidesToShow: 5,
+                variableWidth: true,
+                centerMode:	true,
+            });
+        });
+    </script>
+</body>
+
+</html>
